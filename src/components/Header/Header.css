@@ -1,0 +1,41 @@
+.header {
+    background: linear-gradient(#b6dbfa, #d3e4f1);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 100px;
+}
+
+.logo {
+    font-family: "Titan One", sans-serif;
+    color: black;
+}
+
+
+.search {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.search::placeholder {
+    color: black;
+}
+
+.submit {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+}
+
+.page {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* Change this line */
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 25px 25px;
+    }
+}
