@@ -6,17 +6,17 @@ import "./Experience.css";
 function Experience() {
     const [experiences, setExperiences] = useState([
         {
-            experienceId: "",
-            companyName: "",
-            position: "",
-            location: "",
-            startDate: "",
-            endDate: "",
+            experienceId: "1",
+            companyName: "Infosys Limited",
+            position: "Senior Systems Engineer",
+            location: "Mysore, India",
+            startDate: "Dec 2021",
+            endDate: "Feb 2024",
             description: `<ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Developed scable ...</li>
+                <li>sdvsdvsvs....</li>
+                <li>cdcwcwcwcw ....</li>
+                <li>acdswwvew.....</li>
             </ul>`
         },
 

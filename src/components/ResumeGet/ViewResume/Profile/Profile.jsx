@@ -10,13 +10,13 @@ function Profile() {
     const { profileId } = useParams(); // Fetch profileId from useParams
     const [profile, setProfile] = useState({
         profileId: "",
-        name: "",
-        email: "",
-        phone: "",
-        role: "",
-        address: "",
-        linkedIn: "",
-        portfolioWebsite: ""
+        name: "Abdul Rahman Hussain",
+        email: "arahmanhussain786@gmail.com",
+        phone: "+971 559520432",
+        role: "Java Full Stack Developer",
+        address: "Barsha, UAE Dubai",
+        linkedIn: "a-rahman-hussain",
+        portfolioWebsite: "arahmanhussain.com"
     });
 
     useEffect(() => {
